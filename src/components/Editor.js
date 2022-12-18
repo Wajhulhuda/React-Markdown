@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactMarkdown from "https://esm.sh/react-markdown@7?bundle";
+import ReactMarkdown from "react-markdown";
 
 const Editor = () => {
   const [text, setText] = useState("# Markdown Preview");
